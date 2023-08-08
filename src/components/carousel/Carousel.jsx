@@ -44,13 +44,13 @@ const Carousel = ({ children, slides, isFoodCarousel = false, title = "" }) => {
         <Title text={title} />
         <div className="flex gap-4">
           <button
-            className="w-9 h-9 flex items-center justify-center cursor-pointer  rounded-full bg-gray-200"
+            className="w-9 h-9 flex items-center justify-center cursor-pointer  rounded-full dark:bg-slate-600 bg-gray-200"
             onClick={sliderRef?.slickPrev}
           >
             <LeftArrowShortIcon />
           </button>
           <button
-            className="w-9 h-9 flex items-center justify-center cursor-pointer rounded-full bg-gray-200"
+            className="w-9 h-9 flex items-center justify-center cursor-pointer rounded-full dark:bg-slate-600 bg-gray-200"
             onClick={sliderRef?.slickNext}
           >
             <RightArrowShortIcon />
