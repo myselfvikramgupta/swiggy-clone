@@ -33,22 +33,22 @@ const Home = () => {
     };
     return (
         <>
-          {bestOffers?.length == 0 ? (
+          {bestOffers?.length === 0 ? (
             <Skeleton size={3} w="w-1/3" h="h-64" rounded="rounded-3xl" />
           ) : (
             <BestOffers bestOffers={bestOffers} />
           )}
-          {foodItems?.length == 0 ? (
+          {foodItems?.length === 0 ? (
             <Skeleton size={9} w="w-40" h="h-40" rounded="rounded-full" />
           ) : (
             <FoodItems foodItems={foodItems} />
           )}
-          {bestBrands?.length == 0 ? (
+          {bestBrands?.length === 0 ? (
             <Skeleton size={5} w="w-1/3" h="h-64" rounded="rounded-3xl" />
           ) : (
             <BestBrand bestBrands={bestBrands} />
           )}
-           {resList?.length == 0 ? (
+           {resList?.length === 0 ? (
             <Skeleton size={5} w="w-1/3" h="h-64" rounded="rounded-3xl" />
           ) : (
             <RestaurantList resList={resList} />
