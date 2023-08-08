@@ -10,3 +10,7 @@
 .slick-track {
   margin-left: 0 !important;
 }
+img.logo{
+  width: 100px !important;
+  max-width: none !important;
+}
