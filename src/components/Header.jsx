@@ -40,7 +40,7 @@ const Header = () => {
           <li>Cart</li>
           <li>
             <button
-              className="bg-gray-300 px-5 dark:text-gray-900 rounded-lg cursor-pointer"
+              className="bg-gray-300 dark:bg-slate-600 px-5 dark:text-gray-200 rounded-lg cursor-pointer"
               onClick={handleTheme}
             >
               {theme === "light" ? "Dark" : "Light"}
